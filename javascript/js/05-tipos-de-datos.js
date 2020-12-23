@@ -19,3 +19,8 @@ console.log(parseInt(numero_falso)+7);
 console.log(parseFloat(numero_falso)+7);
 console.log(numero_entero+'texto concatenado')
 console.log(String(numero_entero)+4);
+
+console.log(typeof numero_entero);
+console.log(typeof cadena_texto);
+console.log(typeof verdadero_o_falso);
+console.log(typeof numero_falso);
