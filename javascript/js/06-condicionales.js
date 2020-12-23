@@ -61,7 +61,7 @@ if(year >= 2000 && year <= 2020){
 
 //OR
 if(year == 2008 || (year <= 2018 && year == 2028)){
-  console.log("El año acaba en 8")
+  console.log("El año acaba en 8");
 }else{
-  console.log("Año no registrado")
+  console.log("Año no registrado");
 }
