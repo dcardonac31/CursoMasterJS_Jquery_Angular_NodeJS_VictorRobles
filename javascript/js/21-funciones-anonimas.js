@@ -17,9 +17,18 @@ function sumame(numero1, numero2, sumaYmuestra, sumaPorDos){
 
 }
 
-sumame(5,7, function(dato){
+// sumame(5,7, function(dato){
+//   console.log("La suma es: ", dato)
+// },
+// function(dato){
+//   console.log("La sumna por dos es:", (dato*2));
+// });
+
+//Funciones flecha
+
+sumame(5,7, dato =>{
   console.log("La suma es: ", dato)
 },
-function(dato){
+dato =>{
   console.log("La sumna por dos es:", (dato*2));
 });
