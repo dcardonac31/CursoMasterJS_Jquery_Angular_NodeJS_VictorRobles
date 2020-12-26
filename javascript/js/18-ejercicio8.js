@@ -16,16 +16,22 @@ do{
   var numero2 = parseInt(prompt("Ingrese numero 2: ",0));
 }while(isNaN(numero2))
 
+var resultado = numero1 + " + " + numero2 + " = " + (numero1+numero2) +" \n"  +
+                numero1 + " - " + numero2 + " = " + (numero1-numero2) +" \n"  +
+                numero1 + " * " + numero2 + " = " + (numero1*numero2) +" \n"  +
+                numero1 + " / " + numero2 + " = " + (numero1/numero2) +" \n";
+
+
+
 document.write("<h1>Calculadora</h1>")
 document.write(numero1 + " + " + numero2 +  " = " + (numero1 + numero2) + "</br>")
 document.write(numero1 + " - " + numero2 +  " = " + (numero1 - numero2) + "</br>")
 document.write(numero1 + " * " + numero2 +  " = " + (numero1 * numero2) + "</br>")
 document.write(numero1 + " / " + numero2 +  " = " + (numero1 / numero2) + "</br>")
 
-alert(numero1 + " + " + numero2 + " = " + (numero1+numero2))
-alert(numero1 + " - " + numero2 + " = " + (numero1-numero2))
-alert(numero1 + " * " + numero2 + " = " + (numero1*numero2))
-alert(numero1 + " / " + numero2 + " = " + (numero1/numero2))
+alert(resultado)
+
+
 
 console.log(numero1 + " + " + numero2 + " = " + (numero1+numero2))
 console.log(numero1 + " - " + numero2 + " = " + (numero1-numero2))
