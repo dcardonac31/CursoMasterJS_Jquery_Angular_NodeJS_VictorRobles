@@ -25,7 +25,12 @@ if(indice > -1){
 
 var peliculasString = peliculas.join();
 
-console.log(peliculasString);
+var cadena = "texto1, texto2, texto3";
+var cadenaArray = cadena.split(", ");
+
+
+
+console.log(cadenaArray);
 
 
 
