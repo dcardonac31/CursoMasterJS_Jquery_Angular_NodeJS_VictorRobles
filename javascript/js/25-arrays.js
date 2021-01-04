@@ -34,3 +34,12 @@ for(let lenguaje in lenguajes){
 }
 
 document.write("</ul>");
+
+// Busquedas
+
+var precios = [10, 20, 50, 80, 12];
+
+//var busqueda = lenguajes.find(lenguaje => lenguaje == "JS");
+var busqueda = precios.some(precio => precio >= 70);
+
+console.log(busqueda)
